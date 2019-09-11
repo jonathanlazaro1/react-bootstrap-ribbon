@@ -1,0 +1,44 @@
+{
+  "name": "react-bootstrap4-ribbon",
+  "version": "0.1.1",
+  "description": "A Microsoft's ribbon-like menu for React using Bootstrap 4",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ./src/index.ts --outDir ./src",
+    "prebuild": "node_modules/.bin/babel ./src --out-dir ./src",
+    "postbuild": "node_modules/.bin/copyfiles -f ./src/*.js ./src/*.css ./dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanlazaro1/react-bootstrap-ribbon.git"
+  },
+  "keywords": [
+    "microsoft",
+    "ribbon",
+    "react",
+    "bootstrap"
+  ],
+  "author": "Jonathan Lazzaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonathanlazaro1/react-bootstrap-ribbon/issues"
+  },
+  "homepage": "https://github.com/jonathanlazaro1/react-bootstrap-ribbon#readme",
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "copyfiles": "^2.1.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  }
+}
