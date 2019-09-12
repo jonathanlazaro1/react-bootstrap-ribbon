@@ -1,6 +1,6 @@
 # React Bootstrap 4 Ribbon
 
-A responsive Microsoft's ribbon-like menu for React using Bootstrap 4, forked from and inspired by LGK's [excellent work](https://github.com/lgkonline/react-bootstrap-ribbon) doing the same thing in Bootstrap 3.   See a **demo**.
+A responsive Microsoft's ribbon-like menu for React using Bootstrap 4, forked from and inspired by LGK's [excellent work](https://github.com/lgkonline/react-bootstrap-ribbon) doing the same thing on Bootstrap 3.   See a **demo**.
 
 
 ## Installation
