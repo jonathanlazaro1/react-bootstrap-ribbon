@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jonathanlazaro1/react-bootstrap-ribbon.git"
+    "url": "git+https://github.com/jonathanlazaro1/react-bootstrap4-ribbon"
   },
   "keywords": [
     "microsoft",
@@ -25,9 +25,9 @@
   "author": "Jonathan Lazzaro",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jonathanlazaro1/react-bootstrap-ribbon/issues"
+    "url": "https://github.com/jonathanlazaro1/react-bootstrap4-ribbon/issues"
   },
-  "homepage": "https://github.com/jonathanlazaro1/react-bootstrap-ribbon#readme",
+  "homepage": "https://github.com/jonathanlazaro1/react-bootstrap4-ribbon#readme",
   "peerDependencies": {
     "react": "^16.8.0",
     "react-dom": "^16.8.0"
